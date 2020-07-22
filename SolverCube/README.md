@@ -13,13 +13,21 @@ Choose C++ when you select the languages you want in VS.
 Simply copy all the .cpp and .h files in the right folder and replace the directories for the text files in the code where it is mentionned below:
 
 1- In Phase1.cpp line 6: directory for "MovesP1.txt".
+
 2- In Phase2.cpp line 8: directory for "MovesUDP2.txt".
+
 3- In Phase2.cpp line 25: directory for "MovesP2CO.txt".
+
 4- In mainwindow.cpp line 507: directory for "MovesP2COOrdonne.txt".
+
 5 - In mainwindow.cpp line 517: directory for "MovesUDP2Ordonne.txt".
+
 6- In mainwindow.cpp line 534: directory for "PrunageCPetUD.txt".
+
 7- In mainwindow.cpp line 552: directory for "PrunageEPetUD.txt".
+
 8- In mainwindow.cpp line 645: directory for "MovesP2KOcpPourPrunage.txt".
+
 9- In mainwindow.cpp line 780: directory for "MovesP2KOepPourPrunage.txt".
 
 After this is done you run the code and enter the scrambled cube on the GUI. You must load the files before solving the cube. If you do something in the wrong order a window will pop out and tell you your mistake. This is also valid if you enter and unsolvable cube. The solution will pop in a few seconds at worst. **When you apply the moves of the solution, hold the cube with green center facing towards you and white center on top.**
